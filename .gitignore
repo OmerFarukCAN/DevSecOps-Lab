@@ -1,0 +1,85 @@
+# DevSecOps Learning Repo .gitignore
+
+# Secrets - ASLA commit etme!
+*.env
+*.env.*
+secrets/
+.secrets/
+credentials.json
+*.pem
+*.key
+**/appsettings.Production.json
+connection-strings.txt
+
+# Personal notes (optional - dilersen notları da commit edebilirsin)
+# personal-notes/
+# diary.md
+
+# Lab temporary files
+lab-notes/temp/
+scratch/
+test-data/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+**/*.log
+
+# Build artifacts
+bin/
+obj/
+dist/
+build/
+target/
+
+# Node modules (eğer JavaScript öğrenirseniz)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Azure
+.azure/
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Misc
+*.tmp
+*.temp
+.cache/
+
+# COMMIT ETMENİZ GEREKEN ŞEYLER:
+# ✅ Lab çözümleri
+# ✅ Script'ler (şifre içermiyorsa)
+# ✅ Konfigürasyon örnekleri (dummy data ile)
+# ✅ Dokümantasyon
+# ✅ README'ler
+# ✅ Progress takibi
