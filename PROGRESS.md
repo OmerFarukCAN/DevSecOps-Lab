@@ -110,11 +110,11 @@
 
 **Öğrendiklerim:**
 1. WSL2 setup ve troubleshooting
-2. Linux file system navigation
-3. Basic file operations
-4. Directory management
+2. Linux file system navigation (pwd, ls, cd)
+3. Basic file operations (touch, mkdir, cat, nano)
+4. Copy, move, remove operations (cp, mv, rm)
 5. man pages for documentation
-6. sudo ve permission concepts
+6. sudo concepts ve when to use it
 7. Redirection operators (>, >>)
 8. Git workflow (init, add, commit, push)
 
