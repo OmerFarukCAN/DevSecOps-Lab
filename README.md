@@ -1,115 +1,115 @@
-# DevSecOps Yolculuğum 🛡️
+# DevSecOps Learning Journey 🛡️
 
-## Hakkımda
-- **Mevcut Seviye:** Orta seviye .NET Backend Developer
-- **Güçlü Yönlerim:** C#, .NET teknolojileri
-- **Hedef:** Uzman seviye DevSecOps Engineer
+## About Me
+- **Current Level:** Mid-level .NET Backend Developer
+- **Strengths:** C#, .NET technologies
+- **Goal:** Expert-level DevSecOps Engineer
 
-## Bu Repo Hakkında
-Bu repo, DevSecOps yolculuğumda öğrendiğim her şeyi pratik yaparak kaydettiğim ve gelişimimi takip ettiğim bir öğrenme ortamıdır.
+## About This Repository
+This repository documents my DevSecOps learning journey where I practice, experiment, and track my progress through hands-on labs and real-world projects.
 
-## Öğrenme Yaklaşımım
-✅ **Pratik Odaklı** - Her konuda hands-on lab ve proje  
-✅ **Progressif** - Temellerden ileri seviyeye adım adım  
-✅ **Gerçek Dünya Senaryoları** - Gerçek production sorunlarını çözme  
-✅ **Dokümantasyon** - Öğrendiklerimi not alarak pekiştirme
+## Learning Approach
+✅ **Practice-Focused** - Hands-on labs and projects for every topic  
+✅ **Progressive** - Step-by-step from fundamentals to advanced  
+✅ **Real-World Scenarios** - Solving actual production problems  
+✅ **Documentation** - Reinforcing learning through comprehensive notes
 
-## Yol Haritası Aşamaları
+## Roadmap Phases
 
-### 🎯 Faz 1: Temel Beceriler (2-4 hafta)
-**Hedef:** DevOps için gerekli temel bilgileri kazanmak
+### 🎯 Phase 1: Fundamentals (2-4 weeks)
+**Goal:** Acquire essential skills required for DevOps
 
-- **Linux Temelleri** → `01-fundamentals/linux-basics/`
-- **Networking Temelleri** → `01-fundamentals/networking/`
+- **Linux Fundamentals** → `01-fundamentals/linux-basics/`
+- **Networking Fundamentals** → `01-fundamentals/networking/`
 - **Git & Version Control** → `01-fundamentals/git/`
 - **Shell Scripting (Bash/PowerShell)** → `01-fundamentals/scripting/`
 
-### 🏗️ Faz 2: Infrastructure & Cloud (4-6 hafta)
-**Hedef:** Bulut altyapısını yönetmeyi öğrenmek
+### 🏗️ Phase 2: Infrastructure & Cloud (4-6 weeks)
+**Goal:** Learn to manage cloud infrastructure
 
 - **Azure Fundamentals** → `02-infrastructure/azure-basics/`
 - **Docker & Containerization** → `02-infrastructure/docker/`
 - **Infrastructure as Code (Terraform)** → `02-infrastructure/terraform/`
 - **Kubernetes Basics** → `02-infrastructure/kubernetes/`
 
-### ⚙️ Faz 3: CI/CD & Automation (4-5 hafta)
-**Hedef:** Otomatik deployment pipeline'ları kurmak
+### ⚙️ Phase 3: CI/CD & Automation (4-5 weeks)
+**Goal:** Build automated deployment pipelines
 
-- **CI/CD Kavramları** → `03-cicd/concepts/`
+- **CI/CD Concepts** → `03-cicd/concepts/`
 - **Azure DevOps** → `03-cicd/azure-devops/`
 - **GitHub Actions** → `03-cicd/github-actions/`
 - **Jenkins** → `03-cicd/jenkins/`
 
-### 🔒 Faz 4: Security Fundamentals (5-6 hafta)
-**Hedef:** Güvenlik temellerini ve best practice'leri öğrenmek
+### 🔒 Phase 4: Security Fundamentals (5-6 weeks)
+**Goal:** Learn security foundations and best practices
 
 - **Security Basics** → `04-security/basics/`
 - **OWASP Top 10** → `04-security/owasp/`
 - **Secret Management** → `04-security/secrets/`
 - **Authentication & Authorization** → `04-security/auth/`
 
-### 🛡️ Faz 5: Application Security (6-7 hafta)
-**Hedef:** Uygulama güvenliğini kod seviyesinde sağlamak
+### 🛡️ Phase 5: Application Security (6-7 weeks)
+**Goal:** Implement application security at code level
 
 - **SAST (Static Analysis)** → `05-app-security/sast/`
 - **DAST (Dynamic Analysis)** → `05-app-security/dast/`
 - **Dependency Scanning** → `05-app-security/dependency-scan/`
 - **Code Security Best Practices** → `05-app-security/secure-coding/`
 
-### 🏰 Faz 6: Infrastructure Security (5-6 hafta)
-**Hedef:** Altyapı güvenliğini sağlamak
+### 🏰 Phase 6: Infrastructure Security (5-6 weeks)
+**Goal:** Secure the infrastructure layer
 
 - **Network Security** → `06-infra-security/network/`
 - **Container Security** → `06-infra-security/containers/`
 - **Kubernetes Security** → `06-infra-security/k8s-security/`
 - **Cloud Security** → `06-infra-security/cloud-security/`
 
-### 📊 Faz 7: Monitoring & Response (4-5 hafta)
-**Hedef:** Güvenlik monitoring ve incident response
+### 📊 Phase 7: Monitoring & Response (4-5 weeks)
+**Goal:** Security monitoring and incident response
 
 - **Logging (ELK Stack)** → `07-monitoring/logging/`
 - **Monitoring & Alerting** → `07-monitoring/monitoring/`
 - **Security Incident Response** → `07-monitoring/incident-response/`
 - **Threat Detection** → `07-monitoring/threat-detection/`
 
-### 🚀 Faz 8: Advanced Topics & Integration (6-8 hafta)
-**Hedef:** Her şeyi bir araya getirerek production-ready olmak
+### 🚀 Phase 8: Advanced Topics & Integration (6-8 weeks)
+**Goal:** Bring everything together for production-readiness
 
 - **Security Automation** → `08-advanced/automation/`
 - **Compliance & Governance** → `08-advanced/compliance/`
 - **GitOps** → `08-advanced/gitops/`
 - **Service Mesh** → `08-advanced/service-mesh/`
 
-### 🎓 Faz 9: Capstone Project (8-10 hafta)
-**Hedef:** Tüm bilgileri kullanarak end-to-end bir proje
+### 🎓 Phase 9: Capstone Project (8-10 weeks)
+**Goal:** End-to-end project using all acquired knowledge
 
 - **Real-World Project** → `09-capstone/`
-  - Mikroservis uygulaması geliştirme (.NET)
-  - Tam otomatik CI/CD pipeline
-  - Tüm security best practices
+  - Microservices application development (.NET)
+  - Fully automated CI/CD pipeline
+  - All security best practices implemented
   - Monitoring & alerting
   - Production deployment (Azure)
 
-## Haftalık Hedefler
-Her hafta için belirli hedefler ve tamamlanması gereken lab'lar `weekly-goals/` klasöründe.
+## Weekly Goals
+Specific goals and labs to complete each week can be found in `weekly-goals/`.
 
-## Lab Notlarım
-Her lab sonrası öğrendiklerimi ve karşılaştığım sorunları `lab-notes/` klasöründe dokumentasyonu yapıyorum.
+## Lab Notes
+After each lab, I document my learnings and challenges in `lab-notes/`.
 
-## Sertifikasyon Hedefleri
+## Certification Goals
 - [ ] AZ-900: Azure Fundamentals
 - [ ] AZ-400: Azure DevOps Engineer Expert
 - [ ] AWS Certified DevOps Engineer
 - [ ] Certified Kubernetes Security Specialist (CKS)
 
-## Kaynaklar
+## Resources
 - [DevSecOps Roadmap](https://roadmap.sh/devsecops)
-- Önerilen kurslar ve kitaplar → `resources/`
+- Recommended courses and books → `resources/`
 
-## İlerleme Takibi
-Günlük olarak `PROGRESS.md` dosyasında ilerlemeyi kaydediyorum.
+## Progress Tracking
+Daily progress updates are recorded in `PROGRESS.md`.
 
 ---
 
-**Başlangıç Tarihi:** 30 Mart 2026  
-**Hedef Tarih:** ~9-12 ay içinde uzman seviye
+**Start Date:** March 30, 2026  
+**Target:** Expert level within 9-12 months
